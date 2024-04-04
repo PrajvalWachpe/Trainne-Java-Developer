@@ -103,7 +103,6 @@ public class MaximumSumPath {
             i++;
         }
         
-        // Add remaining elements of Y[] if any
         while (j < n) {
             sumY += Y[j];
             j++;
